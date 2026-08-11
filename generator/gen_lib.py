@@ -85,8 +85,7 @@ def header(active_path=""):
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="{u('/')}" aria-label="Bender Realty home">
-      {BRAND_SVG}
-      <span class="brand-text">BENDER<span class="brand-sub">R&thinsp;E&thinsp;A&thinsp;L&thinsp;T&thinsp;Y</span></span>
+      <img class="brand-logo" src="{u('/img/bender-logo.png')}" alt="Bender Realty" width="96" height="75">
     </a>
     <nav class="main-nav" aria-label="Primary">
       {''.join(links)}
@@ -107,7 +106,7 @@ def footer():
   <div class="container footer-grid">
     <div class="f-brand">
       <a class="brand brand-light" href="{u('/')}">
-        {BRAND_SVG}
+        <img class="brand-mark-img" src="{u('/img/bender-mark.png')}" alt="" width="62" height="24">
         <span class="brand-text">BENDER<span class="brand-sub">R&thinsp;E&thinsp;A&thinsp;L&thinsp;T&thinsp;Y</span></span>
       </a>
       <p>Experience. Integrity. Results.<br>Your trusted real estate partner in Southeast Tennessee since 1969.</p>
