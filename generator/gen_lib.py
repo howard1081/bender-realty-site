@@ -57,9 +57,9 @@ ORG_SCHEMA = {
 NAV_ITEMS = [
     ("Home", "/"),
     ("Search Listings", "/search/"),
-    ("Areas We Serve", "/areas-we-serve/"),
     ("Buy", "/buy/"),
     ("Sell", "/sell/"),
+    ("Areas We Serve", "/areas-we-serve/"),
     ("Property Management", "/property-management/"),
     ("Commercial", "/commercial/"),
     ("About", "/about/"),
