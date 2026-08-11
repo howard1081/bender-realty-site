@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://howard1081.github.io/bender-realty-site/sitemap.xml
