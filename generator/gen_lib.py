@@ -92,6 +92,12 @@ def header(active_path=""):
       {''.join(links)}
     </nav>
     <a class="btn btn-primary nav-cta" href="{u('/sell/home-valuation/')}">What's My Home Worth?</a>
+    <details class="mobile-nav">
+      <summary aria-label="Open menu"><span></span><span></span><span></span></summary>
+      <nav aria-label="Mobile">
+        {''.join(links)}
+      </nav>
+    </details>
   </div>
 </header>'''
 
