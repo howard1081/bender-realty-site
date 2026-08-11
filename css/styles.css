@@ -64,7 +64,7 @@ h4 { font-family: var(--font-ui); font-weight: 700; text-transform: uppercase; l
 .brand { display: flex; align-items: center; gap: 10px; }
 .brand-mark { width: 54px; height: 25px; }
 .brand-text { font-family: var(--font-head); font-weight: 400; font-size: 22px; letter-spacing: .02em; color: var(--charcoal); display: flex; flex-direction: column; line-height: 1; }
-.brand-sub { font-weight: 400; font-size: 10.5px; letter-spacing: .42em; margin-top: 3px; }
+.brand-sub { font-weight: 400; font-size: 10.5px; letter-spacing: .42em; margin-top: 3px; white-space: nowrap; }
 .brand-light .brand-text, .brand-light .brand-sub { color: var(--ivory); }
 .main-nav { display: flex; gap: 20px; margin-left: auto; }
 .main-nav a { font-family: var(--font-ui); font-weight: 700; font-size: 13px; letter-spacing: .05em; color: var(--charcoal); padding: 6px 2px; border-bottom: 2px solid transparent; }
